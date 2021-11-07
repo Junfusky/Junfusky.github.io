@@ -1,1 +1,29 @@
-<p>home works!</p>
+<header></header>
+<main>
+    <section class="about-me">
+        <h1>About me</h1>
+        <p>I am a front-end developer and a UX researcher. I love solving problems with all kinds of methods and witness my impacts on various projects.</p>
+        <p>I earned my Master’s degree from the <a href="{{urlList[0].url}}" target="_blank">College of Information Science & Technology</a>, Pennsylvania State University. I feel pleased to join the <a href="{{urlList[1].url}}" target="_blank">Collaboration and Innovation Laboratory</a> and be advised by Professor <a href="{{urlList[2].url}}" target="_blank">John M. Carroll</a>. My thesis topic focuses on remote education, investigating how videoconferencing affordances play a role in teacher and students' class experience.</p>
+        <p *ngFor="let content of contentList">{{ content.content }}</p>
+    </section>
+    <section class="side-bar">
+        <div class="recent-post">
+            <h2>Recent posts</h2>
+            <i class="pi pi-minus"></i>
+            <div class="post-item">
+                <i class="pi pi-pencil"></i>
+                <a>Animal Adoption Database System (11/2020 – 12/2020)</a>
+            </div>
+        </div>
+        <div class="contact">
+            <h2>Contact</h2>
+            <i class="pi pi-minus"></i>
+            <div class="icon-group">
+                <a *ngFor="let icon of iconList"
+                href="{{icon.url}}" target="_blank"
+                ><i class="pi pi-{{icon.name}}"></i></a>
+            </div>
+            
+        </div>
+    </section>
+</main>
