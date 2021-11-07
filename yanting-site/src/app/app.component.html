@@ -4,14 +4,14 @@
 </header>
 <nav>
   <ul class="nav">
-    <li class="nav-item">ABOUT ME</li>
-    <li class="nav-item">EXPERIENCE & SKILLS</li>
-    <li class="nav-item">PROJECTS</li>
-    <li class="nav-item">MY LIFE</li>
+    <li class="nav-item" [routerLink]="['home']">ABOUT ME</li>
+    <li class="nav-item" [routerLink]="['expereince&skills']">EXPERIENCE & SKILLS</li>
+    <li class="nav-item" [routerLink]="['projects']">PROJECTS</li>
+    <li class="nav-item" [routerLink]="['my-life']">MY LIFE</li>
   </ul>
 </nav>
 <router-outlet></router-outlet>
 <footer>
   <div>Copyright &copy; 2021 All right reserved.</div>
-  
+  <i class="pi pi-chevron-circle-up"></i>
 </footer>
