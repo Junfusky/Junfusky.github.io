@@ -1,0 +1,9 @@
+<div class="contact">
+    <h2>Contact</h2>
+    <i class="pi pi-minus"></i>
+    <div class="icon-group">
+        <a *ngFor="let icon of iconList"
+        href="{{icon.url}}" target="_blank"
+        ><i class="pi pi-{{icon.name}}"></i></a>
+    </div>
+</div>

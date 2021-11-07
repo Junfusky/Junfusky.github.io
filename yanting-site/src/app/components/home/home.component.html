@@ -7,23 +7,7 @@
         <p *ngFor="let content of contentList">{{ content.content }}</p>
     </section>
     <section class="side-bar">
-        <div class="recent-post">
-            <h2>Recent posts</h2>
-            <i class="pi pi-minus"></i>
-            <div class="post-item">
-                <i class="pi pi-pencil"></i>
-                <a>Animal Adoption Database System (11/2020 – 12/2020)</a>
-            </div>
-        </div>
-        <div class="contact">
-            <h2>Contact</h2>
-            <i class="pi pi-minus"></i>
-            <div class="icon-group">
-                <a *ngFor="let icon of iconList"
-                href="{{icon.url}}" target="_blank"
-                ><i class="pi pi-{{icon.name}}"></i></a>
-            </div>
-            
-        </div>
+        <app-recent-posts></app-recent-posts>
+        <app-contact></app-contact>
     </section>
 </main>

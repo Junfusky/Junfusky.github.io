@@ -9,6 +9,8 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { MyLifeComponent } from './components/my-life/my-life.component';
+import { RecentPostsComponent } from './components/recent-posts/recent-posts.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { MyLifeComponent } from './components/my-life/my-life.component';
     PageNotFoundComponent,
     SkillsComponent,
     ProjectsComponent,
-    MyLifeComponent
+    MyLifeComponent,
+    RecentPostsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
