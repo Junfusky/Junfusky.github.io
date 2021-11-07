@@ -1,1 +1,47 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:wght@500;700&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+}
+
+a{
+    text-decoration:none; 
+    color:inherit; 
+    cursor: pointer;
+}
+
+button{
+    outline: none;
+    color:inherit; 
+    cursor:pointer;
+}
+
+ul, ol, dd {
+    list-style:none;
+}
+
+li {
+    cursor: pointer;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.8rem;
+}
