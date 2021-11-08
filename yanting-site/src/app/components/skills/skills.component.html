@@ -1,1 +1,35 @@
-<p>skills works!</p>
+<main>
+    <section class="experienceAndskills">
+        <h1>Experience & Skills</h1>
+        <div class="edu-background">
+            <h2>Educational background:</h2>
+            <div *ngFor="let education of educationList">
+                <p class="year-of-study">{{education.yearStart}} -- {{education.yearEnd}}</p>
+                <p class="institute"><a href="{{education.url}}" target="_blank">{{education.institute}}</a></p>
+                <p class="degree">Degree: {{education.degree}} (GPA: {{education.gpa}})</p>
+                <p class="advisor">Advisor: {{education.advisor}}</p>
+                <p class="filed-of-study">Research Interest: {{education.fieldOfStudy}}</p>
+            </div>
+        </div>
+        <div class="publications">
+            <h2>Publications:</h2>
+            <div *ngFor="let publication of publicationList">
+                <div class="publication-item">
+                    <i class="pi pi-book"></i>
+                    <p>{{publication.authors.join(", ")}}, <a href="{{publication.link}}" target="_blank">{{publication.title}}</a>, {{publication.publisher}}, {{publication.status}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="skills">
+            <h2>Skills:</h2>
+            <p>Front-end Technical Skills:</p>
+            <p>{{techSkills.join(", ")}}</p>
+            <p>UI/UX Skills:</p>
+            <p>{{uxSkills.join(", ")}}</p>
+        </div>
+    </section>
+    <section class="side-bar">
+        <app-recent-posts></app-recent-posts>
+        <app-contact></app-contact>
+    </section>
+</main>

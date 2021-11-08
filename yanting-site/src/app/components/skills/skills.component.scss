@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f3f0;
+    padding: 60px 360px;
+
+    .experienceAndskills {
+        width: 63%;
+        background-color: #fff;
+        border: 1px solid #e0e0e0;
+        padding: 45px;
+        line-height: 1.6;
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        a {
+            color: #618eba;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            margin-bottom: 5px;
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        .publications {
+            .publication-item {
+                display: flex;
+
+                .pi {
+                    margin-right: 5px;
+                    margin-top: 8px;
+                }
+            }
+        }
+    }
+
+    .side-bar {
+        align-self: flex-start;
+        width: 30%;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;      
+    }
+}
