@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f3f0;
+    padding: 60px 300px;
+
+    .my-life {
+        min-width: 750px;
+        width: 63%;
+        background-color: #fff;
+        border: 1px solid #e0e0e0;
+        padding: 45px;
+        line-height: 1.6;
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .img-group {
+            display: flex;
+        }
+    }
+
+    .side-bar {
+        align-self: flex-start;
+        width: 30%;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;      
+    }
+}

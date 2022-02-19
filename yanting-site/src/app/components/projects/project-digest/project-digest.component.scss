@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f3f0;
+  padding: 60px 300px;
+
+  .preview-card {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+
+  .side-bar {
+    // min-width: 350px;
+    align-self: flex-start;
+    width: 30%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+}

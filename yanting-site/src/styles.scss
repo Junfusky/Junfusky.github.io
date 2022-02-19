@@ -1,49 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Playfair+Display:wght@500;700&display=swap");
 
 *,
 *::before,
-*::after{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-size: 1.6rem;
-    height: 100vh;
+  font-size: 1.6rem;
+  height: 100vh;
 }
 
-a{
-    text-decoration:none; 
-    color:inherit; 
-    cursor: pointer;
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
-button{
-    outline: none;
-    color:inherit; 
-    cursor: pointer;
+button {
+  outline: none;
+  color: inherit;
+  cursor: pointer;
 }
 
-ul, ol, dd {
-    list-style:none;
+ul,
+ol,
+dd {
+  list-style: none;
 }
 
 li {
-    cursor: pointer;
+  cursor: pointer;
+  font-family: "Noto Serif", serif;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
 }
 
 p {
-    font-family: 'Noto Serif', serif;
-    font-size: 1.8rem;
-    color: #4c4c4c;
+  font-family: "Noto Serif", serif;
+  font-size: 1.8rem;
+  color: #4c4c4c;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 }

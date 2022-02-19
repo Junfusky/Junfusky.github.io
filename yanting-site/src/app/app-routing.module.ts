@@ -1,5 +1,5 @@
+import { ProjectDigestComponent } from './components/projects/project-digest/project-digest.component';
 import { MyLifeComponent } from './components/my-life/my-life.component';
-import { ProjectsComponent } from './components/projects/projects.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -9,7 +9,7 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
 const routes: Routes = [
   { path: "home", component: HomeComponent},
   { path: "expereince&skills", component: SkillsComponent},
-  { path: "projects", component: ProjectsComponent},
+  { path: "projects", component: ProjectDigestComponent},
   { path: "my-life", component: MyLifeComponent},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }

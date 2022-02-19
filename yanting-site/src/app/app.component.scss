@@ -1,81 +1,78 @@
 header {
-    height: 268px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 268px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    h1 {
-        font-size: 6.2rem;
-    }
+  h1 {
+    font-size: 6.2rem;
+  }
 
-    p {
-        font-size: 1.9rem;
-        margin-top: 30px;
-        color: #767676;
-    }
+  p {
+    font-size: 1.9rem;
+    margin-top: 30px;
+    color: #767676;
+  }
 }
 
 nav {
-    height: 52px;
-    border-top: 1px solid #e0e0e0;
-    border-bottom: 1px solid #e0e0e0;
+  height: 52px;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 
-    .nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nav-item {
-        line-height: 52px;
-        padding: 0 15px;
-        text-transform: uppercase;
-        border-right: 1px solid #e0e0e0;
-        font-weight: 700;
-        font-size: 1.4rem;
-        transition: all 0.4s;
-    }
-
-    .nav-item:hover {
-        color: #618eba;
-    }
-}
-
-
-footer {
-    height: 129px;
-    background-color: #e5e5e5;
+  .nav {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
 
-    div {
-        font-family: 'Noto Serif', serif;
-        font-size: 1.8rem;
-        color: #4c4c4c;
-        margin-right: 50px;
-    }
+  .nav-item {
+    line-height: 52px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    border-right: 1px solid #e0e0e0;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transition: all 0.4s;
+  }
 
-    button {
-        background-color: #fff;
-        border: 1px solid #4c4c4c;
-        border-radius: 5px;
-        padding: 10px;
-        transition: all 0.4s;
-
-        .pi {
-            font-size: 3rem;
-            color: #4c4c4c;
-        }
-    }
-
-    button:hover {
-        background-color: black;
-        .pi {
-            color: #fff;
-        }
-    }
-
+  .nav-item:hover {
+    color: #618eba;
+  }
 }
 
+footer {
+  height: 129px;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    font-family: "Noto Serif", serif;
+    font-size: 1.8rem;
+    color: #4c4c4c;
+    margin-right: 50px;
+  }
+
+  button {
+    background-color: #fff;
+    border: 1px solid #4c4c4c;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.4s;
+
+    .pi {
+      font-size: 3rem;
+      color: #4c4c4c;
+    }
+  }
+
+  button:hover {
+    background-color: black;
+    .pi {
+      color: #fff;
+    }
+  }
+}

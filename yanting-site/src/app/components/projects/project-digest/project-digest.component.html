@@ -1,0 +1,29 @@
+<main class="preview-wrapper">
+  <section>
+    <ng-container *ngFor="let item of projects">
+      <mat-card class="preview-card">
+        <mat-card-title-group>
+          <mat-card-title>{{ item.title }}</mat-card-title>
+          <mat-card-subtitle>Medium</mat-card-subtitle>
+          <img
+            mat-card-md-image
+            src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+          />
+        </mat-card-title-group>
+        <mat-card-content> {{ item.overview }} </mat-card-content>
+      </mat-card>
+    </ng-container>
+    <mat-paginator
+      [length]="pageLength"
+      [pageIndex]="pageIndex"
+      [pageSize]="pageSize"
+      [pageSizeOptions]="pageSizeOptions"
+      (change)="onPageChange($event)"
+    >
+    </mat-paginator>
+  </section>
+  <section class="side-bar">
+    <app-recent-posts></app-recent-posts>
+    <app-contact></app-contact>
+  </section>
+</main>
