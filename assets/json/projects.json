@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1,
+        "title": "The 3rd Eye",
+        "timeFrame": "02/2019 - 02/2020",
+        "catergory": "Personal Project",
+        "overview": "In this project, we proposed to investigate prosthetic support for people with visual impairment (PVI) that integrates computer vision-based prosthetics with video-mediated human-in-the-loop prosthetics. Computer vision-based (CV) prosthetics construe the fundamental technical challenge for visual prosthetics as one of parsing and identifying objects across scales, distances, and orientations. Visual prosthetic applications have been central drivers in the development of computer vision technology over the past 50 years. Video-mediated remote sighted assistance (RSA) prosthetics are more recent, enabled by different technologies, and construe the orienting technical challenge for visual prosthetics as one of the effective helping interactions. RSA services are commercially available now and have elicited much excitement in the PVI community.",
+        "description": "I joined this project before I enrolled the Penn State University as a master student. I contributed to the interview transcription, content analysis, and conducting a pilot study. One of the assistance we focused on is run by a company called Aira, which provides assistive service blends wearables technology, Artificial Intelligence, and Augmented Reality. Aira empowers a network of trained, professional agents to remotely assist people who are blind or low vision with virtually any task, every day. All without a sighted assistant nearby. From the interviews of PVIs and remote assistive agents, we identified many scenarios as well as challenges in terms of conversation, then tried to propose design implications for video-mediated human-in-the-loop prosthetics. At the same time, based on such remote conversational assistance, we also developed a wristband for PVIs navigation tasks, aiming at helping them to avoid the obstacles in route efficiently.",
+        "pictures" : [
+            {
+                "name": "wristband on hand",
+                "link": "",
+                "des": "This is the wristband we built, which is connected to a mobile phone app through Bluetooth. It has four vibrated motors inside the band, standing for different directions. Remote assistive agents could trigger the vibration in a certain direction by tapping the app button, therefore warn the PVI that an obstacle appears in that direction at the moment. We want to add an additional communication channel between the PVIs and the agents aside from the verbal channel. Ideally, the wristband would be able to detect the obstacles automatically in the future."
+            },
+            {
+                "name": "wristband on table",
+                "link": "",
+                "des": ""
+            },
+            {
+                "name": "wristband test in lab",
+                "link": "",
+                "des": "We conducted a pre-test by blindfolding ourselves in the lab, trying to make sure everything works well."
+            },
+            {
+                "name": "pilot study in wegmans",
+                "link": "",
+                "des": "Then we recruited two sighted volunteers to test the product in Wegman’s grocery store."
+            },
+            {
+                "name": "user test in conference",
+                "link": "",
+                "des": "In a convention for visually impaired people, we invited several PVIs to try the wristband."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "SpeakUp: A Voice Interactive Game App",
+        "timeFrame": "10/2019 – 12/2020",
+        "catergory": "Course Project",
+        "overview": "The project aims at helping international students, especially those from China, to adapt to the American education system, such as to speak up more in class. We proposed a simulated game app to help newcomers, mainly for graduate students, be more familiar with the U.S. interactive class environment, and reduce the fear of speaking up in class. The app will be using the elements of simulated scenarios, voice-input interactions, and positive reinforcements to help change attitudes and behavioral intentions. Currently, we are in the exploratory phase, trying to build and test a prototype so that we could determine its feasibility and potential functions.",
+        "description": "We conducted a pilot study using the Wizard of Oz method with three sessions, including a pre-test interview, intervention sessions, and a post-test interview. Three first-year graduate students from China were recruited so far. From the results, the prototype was considered helpful by all three participants. We also discussed some suggestions on the current design and potential novel design elements. Here are screenshots of the low fidelity prototype. The interfaces were drawn in Axure and connected through POP.",
+        "pictures" : [
+            {
+                "name": "pop screen 1",
+                "link": "",
+                "des": ""
+            },
+            {
+                "name": "pop screen 2",
+                "link": "",
+                "des": ""
+            },
+            {
+                "name": "pop screen 3",
+                "link": "",
+                "des": ""
+            },
+            {
+                "name": "pop screen 4",
+                "link": "",
+                "des": ""
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Know You – A communication app for couples and parent-child relationship",
+        "timeFrame": "10/2020 – 12/2020",
+        "catergory": "Personal Project",
+        "overview": "It is one of the small projects I came up with in my spare time. This prototype was created for couples and parent-child pairs who need private cyberspace to communicate and express their thoughts, especially for those separated by distance. It gained positive feedback from some of my friends, however, a more thorough and systematic evaluation should be conducted to make further development.",
+        "description": "First, I did a literature review in family therapy and found out the relationships with others around would largely influence an individual’s emotion and mood every day, thus affect his/her mental health and well-being. Based on my own experience, I would like to have private cyberspace with my husband alone, especially when we are separated by distance, for example, when I am back in my country and he is staying at school. Also, as I have grown up, I seldom have much time and opportunities to have an intimate chat with my mother. When I am not home, I cannot be aware of her health conditions and know about her thoughts. Sometimes we want to express our love to each other but cannot speak out. Then I surveyed the current mobile apps for couples and parent-child pairs, getting to know their strengths as well as weakness. Based on the results, I identified some functions that I could incorporate into my prototype. A prototype was created using Adobe XD, here are some screenshots of it:",
+        "pictures" : [
+            {
+                "name": "prototype screenshot 1",
+                "link": "",
+                "des": ""
+            },
+            {
+                "name": "prototype screenshot 2",
+                "link": "",
+                "des": ""
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Coproducing Care",
+        "timeFrame": "09/2019 – 01/2021",
+        "catergory": "Research Project",
+        "overview": "This is a lab project, in which we are trying to develop a review paper for demonstrating how care could be coproduced. Based on Ostrom and Cahn’s theories of coproduction, we argued that it is common to conceptualize care as a matter of giving and receiving, that is, to distinguish caregivers from those who need or receive care, however, those who received care also could play an active role in the successful production of care.",
+        "description": "I contributed to one of the case studies regarding people with different abilities shopping together. We focused on people with visual impairment (PVI), investigating collaborative shopping practice between them and their sighted spouse and friends. This case study not only shows a positive synergy effect and benefit of the coproduction of care in the view of both Cahn’s and Ostrom’s but also suggests that how the coproducing care can be facilitated and supported with collaborative interaction building effort. In this caring interaction occurring in the context of grocery shopping, Cahn’s transformative coproduction is generated. People with visual impairments are generally considered as marginal in terms of their limitation in vision ability, which easily makes them be perceived as care receivers in the caring interaction. However, in this study, they are not just receiving caring assistance but actively participating in the shopping task through equal participation. In other words, both sighted and visually impaired partners equally contribute to the completion of the shopping task that produces care of coproduction."
+    },
+    {
+        "id": 5,
+        "title": "Tailoring Your AI Friend",
+        "timeFrame": "02/2020 – 05/2020",
+        "catergory": "Research Project",
+        "overview": "Although there is still a long way to go before text-based conversational chatbots become real healthcare helpers, studies have shown the promising effects of chatbots as psychological companions. In the human-chatbot interaction, giving users the choice of tailoring the chatbot more similar to them is expected to reduce uncertainties in the early stages of building a relationship with companion chatbots. While some users appreciate customization, others do not. This study is thereby dedicated to investigating the effects of customization and the underlying mechanisms and contributing to the current customization literature in understanding human-chatbot interaction.",
+        "description": "I enjoyed this project because it is my first time getting to know about Computer-mediated Communication (CMC) and Human-robot Interaction (HRI). I have learned a lot from this project, such as how to develop a hypothesis model, how to organize a scale survey, and how to analyze and interpret the data.",
+        "pictures" : [
+            {
+                "name": "slides screenshot",
+                "link": "",
+                "des": ""
+            }
+        ],
+        "researchQuestion": "Will people like their companion chatbot and enjoy the interaction more if given the choice to customize it? If so, why?",
+        "results": [
+            "Customization positively associated with users’ perceived control, sense of identity, and perceived homophily, while negatively associated with expectation violation.",
+            "Users’ perceived control, sense of identity, perceived homophily, and expectation violation played a mediation role in the relationship between customization manipulation (IV) and chatbot evaluation (DV1) and user intention (DV2).",
+            "Formative machine heuristics had a moderation effect in the relationship between customization and user experience.",
+            "Users’ expertise in technology influences their perceptions of chatbot customization."
+        ],
+        "method": "Online experiment and statistical data analysis (SPSS & JMP)",
+        "outcome": "A paper accepted by the 2021 International Communication Association (ICA) conference."
+    },
+    {
+        "id": 6,
+        "title": "Videoconferencing Affordance in Remote Education",
+        "timeFrame": "04/2020 – 07/2021",
+        "catergory": "Research Project",
+        "overview": "This project consists of two studies that attempt to understand the experience of remote learning and teaching during the pandemic.",
+        "researchQuestion": "How the usage of video conferencing affordances affect students’ remote learning experiences during the COVID-19 pandemic?",
+        "results": [
+            "The use of specific videoconferencing affordances promotes student’s learning experience.",
+            "Being less anonymous means a more positive class experience.",
+            "Raise Hand function makes students feel comfortable, enhancing their class experience.",
+            "Students report a positive class experience and use video features more when they observe many of their classmates use video feeds.",
+            "Customization affordances are correlated positively with interaction in class."
+        ],
+        "method": "Survey and statistical data analysis (SPSS & JMP)",
+        "outcome": "A paper was submitted to the CSCW conference."
+    },
+    {
+        "id": 7,
+        "title": "UX evaluation–UberEats",
+        "timeFrame": "02/2020 – 04/2020",
+        "catergory": "Course Project",
+        "overview": "This is a course project, in which we conducted a heuristic evaluation, competitor analysis, and usability testing for the UberEats mobile app, finding out some problems in the interface and identified opportunities to make improvements. I enjoyed the work because it gave me a chance to practice UX methods that used in the industry.",
+        "pictures" : [
+            {
+                "name": "heuristic evaluation 1",
+                "link": "",
+                "des": ""
+            },
+            {
+                "name": "heuristic evaluation 2",
+                "link": "",
+                "des": ""
+            },
+            {
+                "name": "competitor analysis",
+                "link": "",
+                "des": ""
+            },
+            {
+                "name": "usability testing 1",
+                "link": "",
+                "des": ""
+            },
+            {
+                "name": "usability testing 2",
+                "link": "",
+                "des": ""
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Animal Adoption Database System",
+        "timeFrame": "11/2020 – 12/2020",
+        "catergory": "Course Project",
+        "overview": "This is a course project, in which I proposed the idea and designed the ER model for building an animal adoption management system. I also worked with another four teammates to drew a crow’s foot diagram and develop ways to handle errors and transactions in the database design. I was responsible for prototyping the interfaces of the system with Adobe XD and ProtoPie, then transforming them into interactive web pages with HTML and CSS. I work with my teammates to develop a working website for users like adopters, shelters, and foster families with MySQL, PHP, and other database technologies.",
+        "pictures" : [
+            {
+                "name": "crow’s foot diagram",
+                "link": "",
+                "des": ""
+            },
+            {
+                "name": "prototype screenshot",
+                "link": "",
+                "des": ""
+            }
+        ]
+    }
+]
